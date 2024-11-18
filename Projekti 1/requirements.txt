@@ -1,0 +1,15 @@
+duckdb==0.10.*
+matplotlib
+python-dotenv
+streamlit==1.33.*
+streamlit-chat
+st-annotated-text
+streamlit-authenticator
+st-pages
+pandas
+requests
+plotly
+numpy
+opencv-python
+scikit-learn
+altair

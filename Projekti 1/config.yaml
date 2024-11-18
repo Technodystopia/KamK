@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    Sadmin:
+      email: meep@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: SuperAdmin
+      password: test # Will be hashed automatically
+    Madmin:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0 # Will be managed automatically
+      logged_in: False # Will be managed automatically
+      name: Admin
+      password: test # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+pre-authorized:
+  emails:
+  - meep@gmail.com

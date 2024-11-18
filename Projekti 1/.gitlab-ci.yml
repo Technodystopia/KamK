@@ -1,0 +1,38 @@
+image: python:latest
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+  - python --version ; pip --version
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+  - python3 -m pip install coverage pytest pylint mkdocs mkdocstrings mkdocstrings-python
+
+#test:
+#  tags:
+#    - docker
+#  allow_failure: true
+#  script:
+#    - python3 -m pytest -v
+
+#coverage:
+#  tags:
+#    - docker
+#  allow_failure: true
+#  script:
+#    - coverage run --source code,pages -m pytest -v
+#    - coverage report -m
+
+lint:
+  tags:
+    - docker
+  allow_failure: true
+  script:
+    - pylint code build.py Start.py
