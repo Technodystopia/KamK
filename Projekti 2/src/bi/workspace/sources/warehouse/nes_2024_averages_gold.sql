@@ -1,0 +1,1 @@
+select * from nes_2024_averages_gold

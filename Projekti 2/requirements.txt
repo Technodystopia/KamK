@@ -1,0 +1,8 @@
+pandas
+pymongo
+openpyxl
+requests
+dbt-duckdb==1.8.*
+dbt-core
+duckdb
+polars

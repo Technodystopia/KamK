@@ -1,0 +1,54 @@
+version: 1
+
+models:
+  - name: hopp_orig_gold
+    description: "Tässä taulussa on gold-tasolle pseudonymisoitu vastausdata kolmen eri yksikön asiakaspalautteesta vertailua varten."
+    columns:
+      - name: yksikkokoodi
+        description: "Palautteen saaneen yksikön pseudonymisoitu koodi."
+      - name: kvartaali_vuosi
+        description: "Vastauksen vuosiluku ja kvartaali muodossa kvartaali_vuosi, esim. 1_2022 on vuoden 2022 ensimmäinen kvartaali."
+      - name: value1
+        description: "Ensimmäinen pseudonymisoitu väittämä."
+      - name: value2
+        description: "Toinen pseudonymisoitu väittämä."
+      - name: value3
+        description: "Kolmas pseudonymisoitu väittämä."
+      - name: value4
+        description: "Neljäs pseudonymisoitu väittämä."
+      - name: value5
+        description: "Viides pseudonymisoitu väittämä."
+      - name: value6
+        description: "Kuudes pseudonymisoitu väittämä."
+      - name: value7
+        description: "Seitsemäs pseudonymisoitu väittämä."
+      - name: value8
+        description: "Kahdeksas pseudonymisoitu väittämä."
+      - name: value9
+        description: "Yhdeksäs pseudonymisoitu väittämä."
+      - name: value10
+        description: "Kymmenes pseudonymisoitu väittämä."
+      - name: value11
+        description: "11. pseudonymisoitu väittämä."
+      - name: value12
+        description: "12. pseudonymisoitu väittämä."
+      - name: value13
+        description: "13. pseudonymisoitu väittämä."
+      - name: value14
+        description: "14. pseudonymisoitu väittämä."
+      - name: value15
+        description: "15. pseudonymisoitu väittämä."
+      - name: value16
+        description: "16. pseudonymisoitu väittämä."
+      - name: value17
+        description: "17. pseudonymisoitu väittämä."
+      - name: value18
+        description: "18. pseudonymisoitu väittämä."
+      - name: value19
+        description: "19. pseudonymisoitu väittämä."
+      - name: value20
+        description: "20. pseudonymisoitu väittämä."
+      - name: value21
+        description: "21. pseudonymisoitu väittämä."
+      - name: value22
+        description: "22. pseudonymisoitu väittämä."

@@ -1,0 +1,26 @@
+version: 1
+
+models:
+  - name: nes_2023_national_avgs_filtered_bronze
+    description: "Tässä taulussa on bronze-tasolle pseudonymisoitu kansallisten keskiarvojen data kolmen eri yksikön työtyytyväisyyskyselystä."
+    columns:
+      - name: yksikkokoodi
+        description: "pseudonymisoitu koodi (A, B, C) yksikköön liittyen."
+      - name: value1
+        description: "Ensimmäinen pseudonymisoitu kategoria."
+      - name: value2
+        description: "Toinen pseudonymisoitu kategoria."
+      - name: value3
+        description: "Kolmas pseudonymisoitu kategoria."
+      - name: value4
+        description: "Neljäs pseudonymisoitu kategoria."
+      - name: value5
+        description: "Viides pseudonymisoitu kategoria."
+      - name: value6
+        description: "Kuudes pseudonymisoitu kategoria."
+      - name: value7
+        description: "Seitsemäs pseudonymisoitu kategoria."
+      - name: value8
+        description: "Kahdeksas pseudonymisoitu kategoria."
+      - name: value9
+        description: "Yhdeksäs pseudonymisoitu kategoria."

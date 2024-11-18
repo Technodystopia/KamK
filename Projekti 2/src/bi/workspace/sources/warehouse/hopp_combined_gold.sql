@@ -1,0 +1,1 @@
+select * from hopp_combined_gold

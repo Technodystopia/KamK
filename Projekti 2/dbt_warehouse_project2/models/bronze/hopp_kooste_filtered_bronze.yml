@@ -1,0 +1,18 @@
+version: 1
+
+models:
+  - name: hopp_kooste_filtered_bronze
+    description: "Tässä taulussa on bronze-tasolle pseudonymisoitu vastausdatakooste."
+    columns:
+      - name: yksikkokoodi
+        description: "Palautteen saaneen yksikön pseudonymisoitu koodi."
+      - name: kvartaali_vuosi
+        description: "Vastauksen vuosiluku ja kvartaali muodossa kvartaali_vuosi, esim. 1_2022 on vuoden 2022 ensimmäinen kvartaali."
+      - name: kysymyskoodi
+        description: "Numeroksi pseudonymisoitu kysymys tai väittämä."
+      - name: kyselyt
+        description: "Monestiko kysymys on esitetty kvartaalin ja yksinkön sisällä."
+      - name: vastaukset
+        description: "Montako vastausta on saatu kvartaalin ja yksikön sisällä."
+      - name: keskiarvo
+        description: "Vastausten keskiarvo kahden desimaalin tarkkuudella asteikolla 1-5."

@@ -1,0 +1,124 @@
+version: 1
+
+models:
+  - name: nes_2024_silver
+    description: "Tässä taulussa on silver-tasolle pseudonymisoitu ja vertailukelpoinen työtyytyväisyyskyselyn data kolmen eri yksikön vastauksista vuodelta 2024."
+    columns:
+      - name: yksikkokoodi
+        description: "Pseudonymisoitu koodi (A, B, C) yksikköön liittyen."
+      - name: value1
+        description: "1. pseudonymisoitu parametri."
+      - name: value2
+        description: "2. pseudonymisoitu parametri."
+      - name: value3
+        description: "3. pseudonymisoitu parametri."
+      - name: value4
+        description: "4. pseudonymisoitu parametri."
+      - name: value5
+        description: "5. pseudonymisoitu parametri."
+      - name: value6
+        description: "1. pseudonymisoitu väittämä."
+      - name: value7
+        description: "2. pseudonymisoitu väittämä."
+      - name: value8
+        description: "3. pseudonymisoitu väittämä."
+      - name: value9
+        description: "4. pseudonymisoitu väittämä."
+      - name: value10
+        description: "5. pseudonymisoitu väittämä."
+      - name: value11
+        description: "6. pseudonymisoitu väittämä."
+      - name: value12
+        description: "7. pseudonymisoitu väittämä."
+      - name: value13
+        description: "8. pseudonymisoitu väittämä."
+      - name: value14
+        description: "9. pseudonymisoitu väittämä."
+      - name: value15
+        description: "10. pseudonymisoitu väittämä."
+      - name: value16
+        description: "11. pseudonymisoitu väittämä."
+      - name: value17
+        description: "12. pseudonymisoitu väittämä."
+      - name: value18
+        description: "13. pseudonymisoitu väittämä."
+      - name: value19
+        description: "14. pseudonymisoitu väittämä."
+      - name: value20
+        description: "15. pseudonymisoitu väittämä."
+      - name: value21
+        description: "16. pseudonymisoitu väittämä."
+      - name: value22
+        description: "17. pseudonymisoitu väittämä."
+      - name: value23
+        description: "18. pseudonymisoitu väittämä."
+      - name: value24
+        description: "19. pseudonymisoitu väittämä."
+      - name: value25
+        description: "20. pseudonymisoitu väittämä."
+      - name: value26
+        description: "21. pseudonymisoitu väittämä."
+      - name: value27
+        description: "22. pseudonymisoitu väittämä."
+      - name: value28
+        description: "23. pseudonymisoitu väittämä."
+      - name: value29
+        description: "24. pseudonymisoitu väittämä."
+      - name: value30
+        description: "25. pseudonymisoitu väittämä."
+      - name: value31
+        description: "26. pseudonymisoitu väittämä."
+      - name: value32
+        description: "27. pseudonymisoitu väittämä."
+      - name: value33
+        description: "28. pseudonymisoitu väittämä."
+      - name: value34
+        description: "29. pseudonymisoitu väittämä."
+      - name: value35
+        description: "30. pseudonymisoitu väittämä."
+      - name: value36
+        description: "31. pseudonymisoitu väittämä."
+      - name: value37
+        description: "32. pseudonymisoitu väittämä."
+      - name: value38
+        description: "33. pseudonymisoitu väittämä."
+      - name: value39
+        description: "34. pseudonymisoitu väittämä."
+      - name: value40
+        description: "35. pseudonymisoitu väittämä."
+      - name: value41
+        description: "36. pseudonymisoitu väittämä."
+      - name: value42
+        description: "37. pseudonymisoitu väittämä."
+      - name: value43
+        description: "38. pseudonymisoitu väittämä."
+      - name: value44
+        description: "39. pseudonymisoitu väittämä."
+      - name: value45
+        description: "40. pseudonymisoitu väittämä."
+      - name: value46
+        description: "41. pseudonymisoitu väittämä."
+      - name: value47
+        description: "42. pseudonymisoitu väittämä."
+      - name: value48
+        description: "43. pseudonymisoitu väittämä."
+      - name: value49
+        description: "44. pseudonymisoitu väittämä."
+      - name: value50
+        description: "45. pseudonymisoitu väittämä."
+      - name: value51
+        description: "46. pseudonymisoitu väittämä."
+      - name: value52
+        description: "47. pseudonymisoitu väittämä."
+      - name: value53
+        description: "48. pseudonymisoitu väittämä."
+      - name: value54
+        description: "49. pseudonymisoitu väittämä."
+      - name: value55
+        description: "50. pseudonymisoitu väittämä."
+      - name: value56
+        description: "51. pseudonymisoitu väittämä."
+      - name: value57
+        description: "52. pseudonymisoitu väittämä."
+      - name: value58
+        description: "53. pseudonymisoitu väittämä."

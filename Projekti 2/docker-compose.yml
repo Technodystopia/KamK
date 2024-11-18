@@ -1,0 +1,24 @@
+services:
+
+  evidence:
+    image: apinaryhma-evidence
+    build:
+      context: .
+      dockerfile: src/bi/Dockerfile
+    environment:
+      - INIT_TEMPLATE=${INIT_TEMPLATE:-false}
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/bi/workspace:/evidence-workspace
+      - evidence_node_modules:/evidence-workspace/node_modules
+
+  dbt-docs:
+    image: nginx
+    volumes:
+      - ./dbt_warehouse_project2/target:/usr/share/nginx/html
+    ports:
+      - "8080:80"
+
+volumes:
+  evidence_node_modules:

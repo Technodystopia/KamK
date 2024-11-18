@@ -1,0 +1,1 @@
+select * from nes_2023_national_avgs_gold

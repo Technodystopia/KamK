@@ -1,0 +1,12 @@
+version: 1
+
+models:
+  - name: nes_2024_gold
+    description: "Tässä taulussa on gold-tasolle pseudonymisoitu kansallisten keskiarvojen data kolmen eri yksikön työtyytyväisyyskyselystä vuodelta 2024."
+    columns:
+      - name: yksikkokoodi
+        description: "Pseudonymisoitu koodi (A, B, C) yksikköön liittyen."
+      - name: kysymyskoodi
+        description: "Numeroksi pseudonymisoitu kategoria (1-53)."
+      - name: keskiarvo
+        description: "Vastausten keskiarvo kategoriaa kohti asteikolla 1-5."
